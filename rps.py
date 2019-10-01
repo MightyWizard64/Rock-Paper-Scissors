@@ -75,6 +75,15 @@ while True:
 			if cMove == "rock":
 				print("Computer picks Rock")
 				print("Rock breaks Scissors")
+				cScore += 1
+			elif cMove == "paper":
+				print("Computer picks Paper")
+				print("Scissors cut Paper")
+				pScore += 1
+			else:
+				print("Computer picks Scissors")
+				print("Tie")
+				tie += 1
 	# check if pMove is valid
 		else:
 			print("That is not an option")
